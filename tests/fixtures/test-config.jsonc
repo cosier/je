@@ -1,0 +1,30 @@
+{
+  // Base configuration for all environments
+  "base": {
+    "NODE_ENV": "development",
+    "APP_NAME": "je-test-app",
+    "DEBUG": "true",
+    "COMPLEX_VALUE": "value with spaces"
+  },
+  
+  // Development specific overrides
+  "development": {
+    "API_URL": "http://localhost:3000",
+    "APP_ENV": "development"
+  },
+  
+  // Staging specific overrides
+  "staging": {
+    "NODE_ENV": "staging",
+    "API_URL": "https://staging-api.example.com",
+    "APP_ENV": "staging"
+  },
+  
+  // Production specific overrides
+  "production": {
+    "NODE_ENV": "production",
+    "API_URL": "https://api.example.com",
+    "DEBUG": "false",
+    "APP_ENV": "production"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "include": [
+        "src/*",
+        "tests/*",
+        "docs/*",
+        "deno.json",
+        "mod.ts",
+        "README.md",
+        "tree.txt"
+      ],
+      "output": "docs/src.md",
+      "exclude": []
+    }
+  ],
+  "options": {
+    "extensions": [
+      ".json",
+      ".ts",
+      ".tsx",
+      ".js",
+      ".jsx",
+      ".md"
+    ],
+    "recursive": true,
+    "followSymlinks": false
+  }
+}

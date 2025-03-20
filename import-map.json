@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "@std/path": "npm:@std/path@0.218.2",
+    "@std/fs": "npm:@std/fs@0.218.2",
+    "@std/flags": "npm:@std/flags@0.218.2",
+    "@std/jsonc": "npm:@std/jsonc@0.218.2",
+    "@std/assert": "npm:@std/assert@0.218.2"
+  }
+}
